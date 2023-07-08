@@ -8,66 +8,46 @@
 </head>
 <body>
   <h1 align="center">Veb</h1>
-
-  <p>Напишите здесь, чтобы оценить работу, сообщить об ошибках</p>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-
   <from action="">
+    <table align="center">
+     <tr>
+      <td align="left">
+        <h3>Регистрация на сайте</h3>
+        <label for="logintext">Логин</label>
+        <input placeholder="login" class="form-control" id="logintext">
+        <br>
+        <label for="passtext">Пароль</label>
+        <input type="password" placeholder="password" class="form-control" id="passtext">
+        <br>
+      </td>
+    </tr>
 
-    <p>Зарегистрируйтесь</p>
-    <div>
-      <label for='textfield'>логин</label>
-      <input class="form-control" type="text" placeholder="логин" id="textfield">
-    </div>
+    <tr>
+      <td>
+        <button type="button" class="btn btn-success">ЯВойти</button>
+        <p class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for = "flexSwitchCheckDefault">Согласен с пользовательскими согл</label>    
+      </p>
+      </td>
+    </tr>
 
-    <div>
-      <label for="passfield">пароль</label>
-      <input class="form-control" type="password" placeholder="пароль" id="passfield">
-    </div>
-
-    <br><br>
-    <p>тест драйв</p>
-     <!--Ввод поля с пояснениями-->
-    <div class="row g-3 align-items-center">
-
-      <div class="col-auto">
-        <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+    <tr>
+      <td>
+        <br><br>
+      <h3>Напишите здесь, что-то важное</h3>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <a href="page_2.html">О сайте</a>
       </div>
-    </div>
-
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-      <label class="form-check-label" for = "flexSwitchCheckDefault">Согласен с пользовательскими согл</label>
-    </div>
-
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-      </div>
-    </div>
-  
-    <div class="mb-3 row">
-      <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword">
-      </div>
-    </div>
-
-<button type="button" class="btn btn-success">ЯВойти</button></center>
-  
-  </from>
-
-  <a href="page_2.html">О сайте</a>
-    
+    </td>
+    </tr>
+   </table>
+  </from> 
 </body>
 </html>
